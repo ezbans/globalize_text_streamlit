@@ -2,8 +2,8 @@ import os
 import streamlit as st
 from langchain import PromptTemplate
 from langchain.llms import OpenAI
-from dotenv import load_dotenv,find_dotenv
-load_dotenv(find_dotenv())
+from dotenv import load_dotenv
+load_dotenv()
 
 template = """
     Below is an email that may be poorly worded.
